@@ -1,4 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Esteban');
+
+:root {
+    --bright-teal: #00DDDA;
+    --bright-blue: #08BCCF;
+    --blue: #3A9FC6;
+    --purple: #6677BB;
+    --periwinkle: #538BC0;
+    --dark: #001212;
+    --grey: #DADDDD;
+    --white: #ffffff;
+}
 
 * {
     box-sizing: border-box;
