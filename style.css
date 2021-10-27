@@ -18,6 +18,8 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    color: var(--dark);
     display: flex;
     flex-direction: column;
     align-items: left;
@@ -28,10 +30,21 @@ body {
 
 h1 {
     font-family: 'Esteban', serif;
+    font-size: 64px;
 }
 
 h2 {
     font-family: 'Esteban', serif;
+    font-size: 48px;
+}
+
+h3 {
+    font-family: 'Montserrat', serif;
+    font-size: 32px;
+}
+
+.caption {
+    font-size: 12px;
 }
 
 .container {
