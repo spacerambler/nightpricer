@@ -22,10 +22,70 @@ body {
     flex-direction: column;
     align-items: left;
     justify-content: center;
-    width: 100vw;
-    height: 100vh;
-    overflow: hidden;
     margin: 0;
     padding: 20px;
+}
+
+h1 {
+    font-family: 'Esteban', serif;
+}
+
+h2 {
+    font-family: 'Esteban', serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.color {
+    margin: 10px;
+}
+
+.square {
+    height: 150px;
+    width: 150px;
+    margin: 10px;
+    border: solid 3px black;
+}
+
+.info {
+    margin: 0px 10px;
+
+}
+
+.bright-teal {
+    background: var(--bright-teal);
+}
+
+.bright-blue {
+    background: var(--bright-blue);
+}
+
+.blue {
+    background: var(--blue);
+}
+
+.purple {
+    background: var(--purple);
+}
+
+.periwinkle {
+    background: var(--periwinkle);
+}
+
+.dark {
+    background: var(--dark);
+}
+
+.grey {
+    background: var(--grey);
+}
+
+.white {
+    background: var(--white);
 }
 
