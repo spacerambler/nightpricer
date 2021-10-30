@@ -18,29 +18,46 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
-    font-size: 24px;
+    font-size: 1em;
     color: var(--dark);
     display: flex;
     flex-direction: column;
     align-items: left;
     justify-content: center;
+    align-items: center;
     margin: 0;
     padding: 20px;
+    width: 1024px;
 }
 
 h1 {
-    font-family: 'Esteban', serif;
-    font-size: 64px;
+    font-family: 'Montserrat', serif;
+    font-size: 2.833em;
 }
 
 h2 {
-    font-family: 'Esteban', serif;
-    font-size: 48px;
+    font-family: 'Montserrat', serif;
+    font-size: 2.618em;
 }
 
 h3 {
     font-family: 'Montserrat', serif;
-    font-size: 32px;
+    font-size: 2.189em;
+}
+
+h4 {
+    font-family: 'Montserrat', serif;
+    font-size: 1.751em;
+}
+
+h5 {
+    font-family: 'Montserrat', serif;
+    font-size: 1.618em;
+}
+
+h6 {
+    font-family: 'Montserrat', serif;
+    font-size: 1.353em;
 }
 
 .caption {
