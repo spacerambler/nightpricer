@@ -5,7 +5,7 @@
     --bright-teal: #00DDDA;
     --bright-blue: #08BCCF;
     --blue: #3A9FC6;
-    --purple: #6677BB;
+    --purple: #314682;
     --periwinkle: #538BC0;
     --dark: #001212;
     --grey: #DADDDD;
@@ -25,14 +25,14 @@ body {
     align-items: left;
     justify-content: center;
     align-items: center;
-    margin: 0;
-    padding: 20px;
-    width: 1024px;
+    padding: 0px 20px 20px;
+    /* width: 1024px; */
 }
 
 h1 {
     font-family: 'Montserrat', serif;
     font-size: 2.833em;
+    font-weight: 700;
 }
 
 h2 {
@@ -64,12 +64,18 @@ h6 {
     font-size: 12px;
 }
 
-.container {
+.hero {
+    height: 100px;
+    width: auto;
+    padding: 20px;
+  }
+
+/* .container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: flex-start;
-}
+} */
 
 .color {
     margin: 10px;
@@ -119,3 +125,85 @@ h6 {
     background: var(--white);
 }
 
+.gradient {
+    background: linear-gradient(159deg, rgba(0,221,218,1) 23%, rgba(58,159,198,1) 52%, rgba(83,139,192,1) 76%);
+}
+
+.primary {
+    background: var(--bright-teal);
+}
+
+.primary-btn {
+    background-color: var(--bright-teal);
+    border: 0;
+    border-radius: 5px;
+    box-shadow: 0 10px 20px rgba(0,0,0, 0.1), 0 6px 5px rgba(0,0,0, 0.1);
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 700;
+    padding: .5em 1em;
+}
+
+.primary-btn:hover {
+    background-color: var(--periwinkle);
+}
+.secondary-btn {
+    background-color: var(--blue);
+    border: 0;
+    border-radius: 5px;
+    box-shadow: 0 10px 20px rgba(0,0,0, 0.1), 0 6px 5px rgba(0,0,0, 0.1);
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 700;
+    padding: .5em 1em;
+}
+
+.secondary-btn:hover {
+    background-color: var(--grey);
+}
+
+.tertiary-btn {
+    background-color: var(--dark);
+    color: #ffffff;
+    border-radius: 5px;
+    border: 0;
+    box-shadow: 0 10px 20px rgba(0,0,0, 0.1), 0 6px 5px rgba(0,0,0, 0.1);
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 700;
+    padding: .5em 1em;
+}
+
+.tertiary-btn:hover {
+    background-color: var(--purple);
+}
+
+.transparent-btn {
+    border-color: var(--dark);
+    border-radius: 5px;
+    border: 1;
+    box-shadow: 0 10px 20px rgba(0,0,0, 0.1), 0 6px 5px rgba(0,0,0, 0.1);
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 700;
+    padding: .5em 1em;
+}
+
+.transparent-btn:hover {
+    background-color: var(--bright-blue);
+}
+
+.white-btn {
+    background-color: var(--white);
+    border-radius: 5px;
+    border: 0;
+    box-shadow: 0 10px 20px rgba(0,0,0, 0.1), 0 6px 5px rgba(0,0,0, 0.1);
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 700;
+    padding: .5em 1em;
+}
+
+.white-btn:hover {
+    background-color: var(--bright-blue);
+}
