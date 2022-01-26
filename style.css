@@ -216,3 +216,7 @@ h6 {
     font-size: 2.189em;
     color: var(--purple);
 }
+
+a {
+    padding: 20px;
+}
